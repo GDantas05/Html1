@@ -61,7 +61,7 @@
                                       transparent 15px,
                                       transparent);
     background-size: 20px 20px;
-    background-attachment: fixed;                                      
+    background-attachment: fixed;
 }
 .trabalhos h2 {
     color: #FFF;
@@ -173,14 +173,14 @@ body {
     left: 60%;
     -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
-    opacity: .3;        
+    opacity: .3;
 }
 .acessibilidade {
     top: 30%;
     left: 35%;
     -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
-    opacity: .8;            
+    opacity: .8;
 }
 .responsivo {
     top: 40%;
@@ -222,8 +222,8 @@ body {
     /* altura = 3.5em */
     /* tx = .707 * h - .707 * w + w */
     /* ty = -.707 * h */
-    -webkit-transform: translate(6.5765em, -2.4745em) rotate(45deg);
-            transform: translate(6.5765em, -2.4745em) rotate(45deg);
+    -webkit-transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+            transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
     -webkit-transform-origin: 0 0;
             transform-origin: 0 0;
 
@@ -262,7 +262,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: red;
-    box-shadow: 0 0 0 4px #000, 
+    box-shadow: 0 0 0 4px #000,
                 0 0 0 8px #FFF,
                 0 0 0 12px #000,
                 0 0 0 16px #FFF,

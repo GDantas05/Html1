@@ -16,3 +16,34 @@
     float: right;
     margin-right: 0;
 }
+
+table {
+    margin: 1em 0;
+    border-collapse: separate;
+    border-spacing: 1em;
+}
+
+td {
+    background-color: #EEE;
+}
+.habilidade {
+    background-color: #851944;
+    color: white;
+    font-weight: bold;
+}
+
+thead {
+    background-color: #3C1D3D;
+    color: white;
+    font-weight: bold;
+}
+
+tr, td, th {
+    margin: 0.25em;
+    padding: 1em;
+}
+
+.estudando {
+    font-style: italic;
+    text-align: center;
+}
