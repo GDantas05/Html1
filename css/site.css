@@ -3,6 +3,8 @@ body {
     background-color: #F2FFFC;
     font-size: 120%;
     line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1,
@@ -34,6 +36,13 @@ h1 {
 
 main a {
     color: #851944;
+}
+
+main a:hover, main a:focus {
+    text-shadow: 0 0 1px #FA9;
+    color: white;
+    background-color: #C54974;
+    transition: .5s ease-in;
 }
 
 main p {
@@ -123,7 +132,7 @@ em {
 
 main {
     width: calc(100% - 0.9 * 300px);
-    float: left;
+    flex-grow: 1;
     padding-bottom: 4em;
 }
 
@@ -135,6 +144,7 @@ main {
 }
 
 .navegacao-site {
+    padding-top: calc(300px + 1em);
     width: calc(0.9 * 300px);
     float: right;
     position: relative;
